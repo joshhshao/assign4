@@ -28,9 +28,7 @@ with tabs[2]:
 
 # Tab 4: Volume Chart
 with tabs[3]:
-    st.subheader(f"Something New")
-    st.bar_chart(df['Volume'])
-
+    
     st.header("🏢 Fixed Asset Depreciation Calculator")
     st.write(
         "Calculate and record asset depreciation schedules using standard accounting methods."
